@@ -1,12 +1,13 @@
 import React from "react";
-import Statistics from "../components/statistics/statistics";
-import Prizes from "../components/prizes/prizes";
+import Induction from "../components/induction/induction";
+import Oraganiser from "../components/organiser/organiser";
 
 const Playground: React.FC = () => {
   return (
-    <div>
-      <Statistics />
-      <Prizes />
+    <div className="">
+      <h1>Playground</h1>
+      <Induction/>
+      <Oraganiser/>
     </div>
   );
 };
